@@ -2,11 +2,10 @@
 Various examples for Zephyr OS running on the BBC Microbit Version 2
 The force of gravity is given by the following equation:
 
-`F = G * (m1 * m2) / r^2`
+# test
 
-Where:
+The Cauchy-Schwarz inequality states that for any two vectors $\vec{a}$ and $\vec{b}$ in an inner product space, it holds that:
 
-- `F` is the gravitational force between two objects
-- `G` is the gravitational constant (6.67430 × 10^-11 N·(m/kg)^2)
-- `m1` and `m2` are the masses of the two objects
-- `r` is the distance between the centers of the two objects
+$$|\langle \vec{a}, \vec{b} \rangle | \leq \|\vec{a}\| \|\vec{b}\|$$
+
+where $\langle \cdot, \cdot \rangle$ denotes the inner product and $\|\cdot\|$ denotes the norm of a vector. This inequality is a fundamental result in linear algebra and has many important applications in various fields of mathematics and science.
